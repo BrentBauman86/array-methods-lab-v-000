@@ -1,7 +1,10 @@
 #require "pry"
 
 def using_include(array, element)
-array.include?("wow")
+if array.include?("wow")
+  true
+else array.include?("element 2")
+  false
 end
 
 def using_sort(array)
