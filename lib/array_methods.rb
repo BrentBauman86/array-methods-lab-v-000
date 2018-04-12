@@ -1,8 +1,8 @@
-require "pry"
+#require "pry"
 
 
 def using_include(array, element)
-binding.pry
+#binding.pry
 array.include?("wow")
 end
 
