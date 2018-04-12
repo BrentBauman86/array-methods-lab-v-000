@@ -6,6 +6,8 @@ if array.include?("wow")
 else array.include?("tardis")
   false
 end
+end
+
 
 def using_sort(array)
 array.sort
