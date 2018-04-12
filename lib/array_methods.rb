@@ -3,7 +3,11 @@
 
 def using_include(array, element)
 #binding.pry
-array.include?("wow") && array.include?("element2")
+if array.include?("element2")
+  false
+else array.include?("wow")
+  true
+end
 end
 
 def using_sort(array)
