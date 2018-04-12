@@ -1,9 +1,9 @@
 #require "pry"
 
 def using_include(array, element)
-if array.include?("") == ("wow")
+if array.include?("element 1") == ("wow")
   true
-else array.include?("") == ("tardis")
+else array.include?("element 2") == ("tardis")
    false
 end
 end
