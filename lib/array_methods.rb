@@ -1,5 +1,8 @@
+require "pry"
+
 
 def using_include(array, element)
+binding.pry
 array.include?("element 1")
 end
 
