@@ -2,7 +2,6 @@
 
 
 def using_include(array, element)
-#binding.pry
 array.include?("wow") ? true : false
 end
 
