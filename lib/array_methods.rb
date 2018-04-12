@@ -1,7 +1,7 @@
 def using_include(array, element)
-if array.include?("wow")
+if array.include?("element 1")
    true
-else array.include?("tardis")
+else array.include?("element 2")
    false
 end
 end
