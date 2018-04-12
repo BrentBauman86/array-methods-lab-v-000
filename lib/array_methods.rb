@@ -3,7 +3,7 @@ require "pry"
 
 def using_include(array, element)
 binding.pry
-array.include?("element 1")
+array.include?("wow")
 end
 
 def using_sort(array)
