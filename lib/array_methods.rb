@@ -1,8 +1,5 @@
 def using_include(array, element)
-if array.include?("element 1")
-return  true
-else array.include?("element 2")
-end
+array.include?("element 1")
 end
 
 def using_sort(array)
@@ -22,5 +19,5 @@ def using_last(array)
 end
 
 def using_size(array)
-
+array.size
 end
