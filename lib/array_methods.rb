@@ -4,6 +4,7 @@ if array.include?("wow")
 else array.include?("tardis")
   return false
 end
+end
 
 def using_sort(array)
 
