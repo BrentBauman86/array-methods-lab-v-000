@@ -4,9 +4,9 @@
 def using_include(array, element)
 #binding.pry
 if array.include?("element2")
-return  false
+false
 else array.include?("wow")
-  return true
+return true
 end
 end
 
